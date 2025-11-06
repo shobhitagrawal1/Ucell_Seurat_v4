@@ -2,7 +2,7 @@
 #'
 #' This v4-only version assumes Seurat::GetAssayData uses the 'slot' argument.
 #' @export
-AddModuleScore_UCell <- function(obj, features, maxRank=1500,
+AddModuleScore_UCell_v4 <- function(obj, features, maxRank=1500,
         chunk.size=100, BPPARAM=NULL, ncores=1, storeRanks=FALSE,
         w_neg=1, assay=NULL, slot="counts", ties.method="average",
         missing_genes = c("impute","skip"),
