@@ -1,0 +1,18 @@
+Package: UCell_Seuratv4
+Type: Package
+Title: UCell scoring functions (Seurat v4-only fork)
+Version: 0.99.0
+Authors@R: person("Your", "Name", email = "you@example.com", role = c("aut", "cre"))
+Description: UCell scoring functions adapted to Seurat v4 (slot-based API). A lightweight fork that pins Seurat to v4 and removes v5 layers support.
+Depends: R (>= 4.0)
+Imports:
+    Seurat (>= 4.0.0, < 5.0.0),
+    SeuratObject,
+    Matrix,
+    data.table,
+    BiocParallel,
+    methods
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
