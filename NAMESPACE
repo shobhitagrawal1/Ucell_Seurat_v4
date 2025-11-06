@@ -1,0 +1,8 @@
+import(Matrix)
+import(data.table)
+import(BiocParallel)
+import(Seurat)
+import(SeuratObject)
+import(methods)
+export(AddModuleScore_UCell)
+export(SmoothKNN.Seurat)
