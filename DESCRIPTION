@@ -1,4 +1,4 @@
-Package: UCell_Seuratv4
+Package: UCellSeuratv4
 Type: Package
 Title: UCell scoring functions (Seurat v4-only fork)
 Version: 0.99.0
