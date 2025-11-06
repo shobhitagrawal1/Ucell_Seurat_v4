@@ -55,7 +55,7 @@ AddModuleScore_UCell_v4 <- function(obj, features, maxRank=1500,
             stop(sprintf("Cannot find slot '%s' (or any common slots) in assay '%s'.", slot, assay))
         }
 
-        meta.list <- lapply(names(successful), function(x) {
+        meta.list <- lapply(names(successful)[1], function(x) {
             calculate_Uscore(
                 successful[[x]],
                 features=features, maxRank=maxRank,
